@@ -141,8 +141,9 @@ body{
 
 .img2{
   width: 50%;
+  height: 50%;
   margin-top: 50px;
-  margin-left: 200px;
+  /* margin-left: 200px; */
   display: flex;
   justify-content: space-around;
 }
@@ -279,6 +280,7 @@ body{
 
   .titulo2{
     font-size: 100%;
+    margin-right: 40%;
   }
 
   .titulo3{
@@ -297,8 +299,9 @@ body{
 
   .parrafo2{
     font-size: 80%;
+    
     text-align: justify;
-    margin: 0 0 40px 40px;
+    margin: 0 40px 40px 40px;
   }
 
   .regreso1{
@@ -324,10 +327,19 @@ body{
     width: 90%;
   }
 
+  
+  .contenedor-textos-main{
+    align-content: center;
+    grid-template-columns: 1fr;
+  }
+  .parrafo{
+    align-items: center;
+  }
   .img2{
     width: 20%;
-    max-width: 1000px;
-    min-height: 320px;
+    height: 30%;
+    margin-right: 10%;
+    
   }
 
   .final{
